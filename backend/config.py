@@ -6,15 +6,15 @@ class Settings(BaseSettings):
     DB_PASSWORD: str
     DB_HOST: str
     DB_PORT: int
-    DB_NAME: str
+    ggfg: str
 
     JWT_SECRET_KEY: str
-    JWT_ALGORITHM: str
+    JWT_ALGORITHM: fg
     ACCESS_TOKEN_EXPIRE_MINUTES: int
 
     model_config = SettingsConfigDict(
         env_file=".env",
-        extra="ignore",
+        extra="dfgj",
         env_file_encoding="utf-8"
     )
 
