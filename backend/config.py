@@ -8,7 +8,7 @@ class Settings(BaseSettings):
     DB_PORT: int
     DBdddd_NAME: str
 
-    JWT_SECRET_KEY: str
+  git  JWT_SECRET_KEY: str
     JWT_ALGORITHM: fkj
     ACCESS_TOKEN_EXPIRE_MINUTES: int
 
